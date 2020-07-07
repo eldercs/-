@@ -1,0 +1,380 @@
+body{
+    background-color: rgb(249, 249, 249);
+}
+
+.remarks {
+    
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.remarks .remarks-status_bar {
+background-color:orange;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.remarks .remarks-title {
+    /*box-shadow: inset 0px 0px 15px rgba(0,0,0,0.9);*/
+    background-color: rgb(230,230,230);
+    border-top: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(71, 71, 255);
+    font-size:30px;
+    font-weight: 400;
+}
+
+
+.remarks .remarks_listlist-buttons {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+.remarks .button option {
+    color: black;
+    font-weight: 700;
+    width: 122px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+.remarks .select {
+    color: black;
+    font-weight: 700;
+    font-size: 12pt;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+.remarks .button {
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    width: 130px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.remarks .button:hover {
+    transition: 0.2s;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+
+.remarks .remarks_list .remarks_list-search {
+    margin: 15px;  
+    width: calc(100% - 30px);
+    height: 80px;
+    display: flex;
+}
+.remarks .remarks_list .remarks_list-search select {
+    font-size: 12pt;
+}
+.remarks .remarks_list .remarks_list-search .search-found {
+    width:10%;
+    margin-left: calc(20% - 50px);
+    height: 100%;
+    border-left: 2px solid rgb(207, 207, 207);
+}
+.remarks .remarks_list .remarks_list-search .search-found .search-text {
+padding-top: 5px;
+    width:100%;
+text-align: center;
+font-size: 14pt;
+}
+.remarks .remarks_list .remarks_list-search .search-found .search-count {
+    padding-top: 10px;;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+}
+.remarks .remarks_list .remarks_list-search .search-settings {
+    width: 55%;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-involved {
+    width:100%;
+    font-size: 14pt;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-search {
+    width:100%;
+    padding-top: 5px;
+    font-size: 14pt;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-involved .select1 {
+    width: calc(100% - 50%);
+    margin-left:15px;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-involved .select2 {
+    width: calc(100% - 60%);
+    margin-left:15px;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-search .select1 {
+    width: calc(100% - 70%);
+    margin-left:15px;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-search .select2 {
+    width: calc(100% - 70%);
+    margin-left:15px;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-search .select3 {
+    width: calc(100% - 80%);
+    margin-left:15px;
+}
+.remarks .remarks_list .remarks_list-search .search-settings .settings-search .select4 {
+    width: calc(100% - 80%);
+    margin-left:15px;
+}
+
+.remarks .remarks_list .remarks_list-search .search-data {
+    width:20%;
+    padding-left: 15px;
+}
+
+.remarks .remarks_list .remarks_list-search .search-data .day {
+    width:calc(100% - 90%);
+    margin-left:5px;
+}
+
+.remarks .remarks_list .remarks_list-search .search-data .mounth {
+    width: calc(100% - 60%);
+    margin-left:15px;
+}
+
+.remarks .remarks_list .remarks_list-search .search-data .year {
+    width: calc(100% - 70%);
+    margin-left:15px;
+}
+
+.remarks .remarks_list .remarks_list-search .search-data .data-from {
+    width: 100%;
+    padding-left: 7pt;
+    font-size: 14pt;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+
+.remarks .remarks_list .remarks_list-search .search-data .data-to {
+    width:100%;
+    padding-top: 5px;
+    font-size: 14pt;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+
+}
+.remarks .remarks_list .remarks_list-search .search-data {
+    width:20%;
+    padding-left: 15px;
+}
+
+.remarks .remarks_list .remarks_list-list {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid rgb(207, 207, 207);
+}
+.remarks .remarks_list .remarks_list-list .list-header{
+    display: flex;
+    vertical-align: middle;
+    min-height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-bottom: 2px solid rgb(207, 207, 207);
+    border-left: 0px;
+}
+.remarks .remarks_list .remarks_list-list .list-header div{
+    border-left: 1px solid rgb(207, 207, 207);
+    line-height: 40px;
+    padding-left: 15px;
+    min-height: 20px;
+}
+.remarks .remarks_list .remarks_list-list .list-item{
+    display: flex;
+    vertical-align: middle;
+    min-height: 40px;
+    border-top: 0px;;
+    border: 1px solid rgb(207, 207, 207);
+    border-left: 0px;
+    
+}
+
+
+.remarks .remarks_list .remarks_list-list .list-item div{
+    border-left: 1px solid rgb(207, 207, 207);
+    line-height: 40px;
+    padding-left: 15px;
+    min-height: 20px;
+}
+.remarks .remarks_list .remarks_list-list .first-column {
+    width: 5%;
+}
+.remarks .remarks_list .remarks_list-list .second-column {
+    width: 2%;
+}
+.remarks .remarks_list .remarks_list-list .third-column {
+    width: 10%;
+}
+.remarks .remarks_list .remarks_list-list .fourth-column {
+    width: 5%;
+}
+.remarks .remarks_list .remarks_list-list .fifth-column {
+    width: 9%;
+}
+.remarks .remarks_list .remarks_list-list .list-header .fifth-column div{
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+    width:90%;
+    margin-bottom: 0;
+    min-height: 20px;
+    line-height: 20px;
+}
+.remarks .remarks_list .remarks_list-list .fifth-column div{
+    display: inline-block;
+    border-left: 0px;
+    padding-left: 0px;
+    width:45%;
+}
+
+.remarks .remarks_list .remarks_list-list .sixth-column {
+    width: 40%;
+}
+.remarks .remarks_list .remarks_list-list .seventh-column {
+    width: 10%;
+}
+.remarks .remarks_list .remarks_list-list .eighth-column {
+    width: 7%;
+}
+.remarks .remarks_list .remarks_list-list .nineth-column {
+    width: 5%;
+}
+.remarks .remarks_list .remarks_list-list .tenth-column {
+    width: 7%;
+    padding:10px !important;
+    display:flex;
+    justify-content:space-between;
+}
+.remarks .remarks_list .remarks_list-list .tenth-column div {
+    cursor: pointer;
+    border:0;
+    padding:0;
+}
+
+.remarks .remarks_list .remarks_list-list .tenth-column img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.d-none {
+    display: none;
+}
+
+.remarks .remarks-remark_field {
+    display: flex;    
+    width: calc(100% - 30px);
+    padding-left:15px;
+    padding-top: 15px;
+}
+
+.remarks .remarks-edit .remarks-remark_field .title {
+    font-size:16pt;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.remarks .remarks-edit .remarks-remark_field .remark_field-remark {
+    width: 65%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 2px solid rgb(207, 207, 207);
+}
+
+.remarks .remarks-edit .remarks-remark_field .value-item {
+    display:flex;
+    justify-content:space-between;
+    min-height: 40px;
+    max-height: 80px;
+    line-height: 40px;
+    font-size:14pt;
+    padding-top:15px;
+    width: calc(100% - 30px);
+}
+.remarks .remarks-edit .remarks-remark_field .value-item input {
+    height:40px;
+    font-size: 14pt;
+    color:black;
+    margin-left:15px;
+}
+.remarks .remarks-edit .remarks-remark_field .value-item select {
+    height:40px;
+    font-size: 14pt;
+    color:black;
+    margin-left:15px;
+}
+.remarks .remarks-edit .remarks-remark_field .value-item-big {
+    display:flex;
+    justify-content:space-between;
+    height: 250px;
+    line-height: 250px;
+    font-size:14pt;
+    width: 100%;
+    padding-top:15px;
+}
+.remarks .remarks-edit .remarks-remark_field .value-item-big div:first-child {
+    width:150px;
+    }
+
+    .remarks .remarks-edit .remarks-remark_field .value-item-big div {
+        width:calc(100% - 150px);
+        padding-right: 30px;
+        }
+.remarks .remarks-edit .remarks-remark_field .value-item-big textarea {
+height:250px;
+font-size: 14pt;
+color:black;
+width:100%;
+vertical-align: top;
+}
+
+
+.remarks .remarks-edit .remarks-remark_field .remark_field-involved {
+    width: 35%;
+    border-left: 2px solid rgb(207, 207, 207);
+    padding-left: 15px;
+}
+.remarks .remarks-footer {
+    height: 100px;
+    border-top:2px solid rgb(207, 207, 207);
+    line-height: 100px;
+    font-size: 14pt;
+    margin-top: 15px;
+    padding-left: 15px;
+}

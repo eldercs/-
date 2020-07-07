@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(249, 249, 249);
+}
+
+.notremarks {
+    
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.notremarks .notremarks-title {
+    /*box-shadow: inset 0px 0px 15px rgba(0,0,0,0.9);*/
+    background-color: rgb(230,230,230);
+    border-top: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(71, 71, 255);
+    font-size:30px;
+    font-weight: 400;
+}
+
+.notremarks .notremarks_list {
+
+}
+.notremarks .notremarks_listlist-buttons {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+.notremarks .notbutton option {
+    color: black;
+    font-weight: 700;
+    width: 122px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+.notremarks .notselect {
+    color: black;
+    font-weight: 700;
+    font-size: 12pt;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+.notremarks .notbutton {
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    width: 130px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.notremarks .notbutton:hover {
+    transition: 0.2s;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+
+
+
+.notremarks .notremarks_list .notremarks_list-list {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid rgb(207, 207, 207);
+}
+.notremarks .notremarks_list .notremarks_list-list .notlist-header{
+    display: flex;
+    vertical-align: middle;
+    min-height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-bottom: 2px solid rgb(207, 207, 207);
+    border-left: 0px;
+}
+.notremarks .notremarks_list .notremarks_list-list .notlist-header div{
+    border-left: 1px solid rgb(207, 207, 207);
+    line-height: 40px;
+    padding-left: 15px;
+    min-height: 20px;
+}
+.notremarks .notremarks_list .notremarks_list-list .notlist-item{
+    display: flex;
+    vertical-align: middle;
+    min-height: 40px;
+    border-top: 0px;;
+    border: 1px solid rgb(207, 207, 207);
+    border-left: 0px;
+    
+}
+
+.notremarks .notremarks_list .notremarks_list-list .notlist-item div{
+    border-left: 1px solid rgb(207, 207, 207);
+    line-height: 40px;
+    padding-left: 15px;
+    min-height: 20px;
+}
+.notremarks .notremarks_list .notremarks_list-list .notfirst-column {
+    width: 5%;
+}
+.notremarks .notremarks_list .notremarks_list-list .notsecond-column {
+    width: 10%;
+}
+.notremarks .notremarks_list .notremarks_list-list .notthird-column {
+    width: 25%;
+}
+.notremarks .notremarks_list .notremarks_list-list .notfourth-column {
+    width: 25%;
+}
+.notremarks .notremarks_list .notremarks_list-list .notfifth-column {
+    width: 5%;
+}
+.notremarks .notremarks_list .notremarks_list-list .notsixth-column {
+    width: 15%;
+}
+
+.notremarks .notremarks_list .notremarks_list-list .nottenth-column {
+    width: 10%;
+    padding:10px !important;
+    display:flex;
+    justify-content:space-between;
+}
+.notremarks .notremarks_list .notremarks_list-list .nottenth-column div {
+    cursor: pointer;
+    border:0;
+    padding:0;
+}
+
+.notremarks .notremarks_list .notremarks_list-list .nottenth-column img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.d-none {
+    display: none;
+}
+
+.notremarks .notremarks-remark_field {
+    display: flex;    
+    width: calc(100% - 30px);
+    padding-left:15px;
+    padding-top: 15px;
+}
+
+.notremarks .notremarks-edit .notremarks-remark_field .title {
+    font-size:16pt;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
